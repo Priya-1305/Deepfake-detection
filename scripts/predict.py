@@ -10,8 +10,9 @@ if __name__ == "__main__":
     score = predict_video(video_path)
 
     if score is None:
-        print("Error: Could not read video")
+        print("No valid face detected in video")
         sys.exit(1)
+
 
     label = "fake" if score > 0.5 else "real"
 

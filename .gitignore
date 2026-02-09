@@ -11,3 +11,9 @@ models/*.pt
 # OS
 .DS_Store
 Thumbs.db
+venv/
+__pycache__/
+*.pyc
+.env
+temp_uploads/
+models/*.pt
